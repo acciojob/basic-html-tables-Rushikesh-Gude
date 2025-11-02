@@ -2,5 +2,27 @@
 /* Your CSS Code here. */
 body{
 	background-color:green;
+	text-align:center
+}
+
+table{
+	border-collapse: collapse;
+	border-radius:10px;
+	width: 70%;
+	margin: 40px auto;
+	overflow:hidden;
+	box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+thead{
+	background-color: white
+}
+th, td {
+    border: 1px solid black; /* Adds inner lines */
+    padding: 10px;
+    text-align: center;
+  }
+tbody{
+	background-color:white
 }
 
